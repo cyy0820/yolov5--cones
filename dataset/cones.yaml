@@ -1,0 +1,15 @@
+path: /home/cyy/cone_project/dataset
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数
+nc: 1
+
+# 类别名称
+names: ['cone']
+
+# 关键修正：明确指定标签路径
+train_labels: labels/train
+val_labels: labels/val
+test_labels: labels/test
