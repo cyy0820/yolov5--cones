@@ -1,7 +1,7 @@
-path: /home/cyy/cone_project/dataset
-train: images/train
-val: images/val
-test: images/test
+path: /home/cyy/yolov5--cones/dataset
+train: /home/cyy/yolov5--cones/dataset/train/images
+val: /home/cyy/yolov5--cones/dataset/val/images
+test: /home/cyy/yolov5--cones/dataset/test/images
 
 # 类别数
 nc: 1
@@ -10,6 +10,6 @@ nc: 1
 names: ['cone']
 
 # 关键修正：明确指定标签路径
-train_labels: labels/train
-val_labels: labels/val
-test_labels: labels/test
+train_labels: dataset/train/labels
+val_labels: dataset/val/labels
+test_labels: dataset/test/labels
